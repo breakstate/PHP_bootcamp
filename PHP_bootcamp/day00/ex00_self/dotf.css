@@ -1,0 +1,17 @@
+html, body{
+	background-color:lightgrey;
+}
+
+html{
+	font-size: 12px;
+}
+
+.main_container{
+	padding-left: 10em;
+	padding-right: 10em;
+	background-color:darkgray;
+}
+
+.dotf_image{
+	position: relative;
+}

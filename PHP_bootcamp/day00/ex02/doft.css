@@ -15,10 +15,13 @@ html {
 
 .main-header {
     position: relative;
+    width: 120em;
     background-color: #909090;
-    border: 1em solid #909090;
+    border: 0.5em solid #909090;
     border-radius: 11px;
     box-shadow: .9em .5em .5em black;
+    right: -5em;
+    top: -1.2em;
 }
 
 .left-bar {
@@ -27,8 +30,9 @@ html {
     border: 1em solid #909090;
     border-radius: 11px;
     box-shadow: .9em .5em .5em black;
-    width: 12em;
+    width: 10em;
     float: left;
+    left: 2%;
 }
 
 .right-bar {
@@ -37,10 +41,11 @@ html {
     border: 1em solid #909090;
     border-radius: 11px;
     box-shadow: .9em .5em .5em black;
-    width: 12em;
+    width: 10em;
+    height: 33em;
     float: right;
-    left: 130em;
-    bottom: 34.5em;
+    left: 83%;
+    bottom: 15.3em;
 }
 
 .cluster-image
@@ -49,68 +54,94 @@ html {
     border: 1em solid #909090;
     border-radius: 11px;
     box-shadow: 1em 1em 1em black;
-    right: 7em;
+    right: 7.8em;
 }
 
 .container-2 {
-    padding-left: 3em;
-    padding-right: 3em;
+    position: relative;
+    top: -3em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .doft-image {
-    width: 50em;
+    width: 37em;
 }
 
 .close {
     position: absolute;
-    width: 2em;
+    width: 1.7em;
     bottom: 0;
     right: 0;
 }
 
 .reload {
     position: absolute;
-    width: 2em;
+    width: 1.7em;
     top: 0;
     right: 0;
 }
 
 .magnif {
     position: absolute;
-    bottom: -3em;
-    right: 1em;
-    width: 25em;
+    bottom: -2.5em;
+    right: 2em;
+    width: 21em;
 }
 
 .arrow, .hand, .tools, .chat-icon {
-    width: 8em;
+    width: 6em;
     position: relative;
 }
 
 .eye {
-    border: .8em solid red;
-    width: 8em;
-    border-radius: 1em;
+    border: .45em solid red;
+    width: 6em;
+    border-radius: .4em;
 }
 
 .book, .towel {
-    width: 8em;
+    width: 6em;
 }
 
 .brick {
-    width: 9.5em;
-    height: 8em;
+    position: relative;
+    left: -0.3em;
+    width: 10.7em;
+    height: 6em;
     background-image: url("resources/brick.jpg");
 }
 
 .greenbox {
     position: absolute;
-    width: 49em;
+    width: 43em;
     height: 14em;
     border: 1em;
     border-radius: 11px;
     background-color: rgb(139,252,141);
-    top: 65em;
-    left: 10em;
+    top: 58em;
+    left: 15em;
     box-shadow: 1em 1em 1em black
+}
+
+.greentext{
+    font-size: 20px;
+}
+
+.link1{
+    position: absolute;
+    height: 60px;
+    width: 70px;
+    left: 72em;
+    bottom: 37em;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.link2{
+    position: absolute;
+    height: 70px;
+    width: 120px;
+    left: 90em;
+    bottom: 35em;
+    background-color: rgba(0, 0, 0, 0);
 }
