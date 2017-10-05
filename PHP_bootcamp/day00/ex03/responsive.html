@@ -1,40 +1,15 @@
 <html>
 	<head>
 		<title>Mendeleiev</title>
-		<style>
-			td{
-				height:50px;
-				width:50px;
-			}
-			div.atomicw{
-				font-size:11px;
-				text-align: right;
-			}
-			div.symbol {
-				text-align: center;
-			}
-			div.atomicn{
-				font-size:11px;
-			}
-			td {background-color:yellow;}
-			td.noble{background-color:purple;}
-			td.alkalimetal{background-color:red;}
-			td.alkaline{background-color:orange}
-			td.nonmetal{background-color:#47B1D1}
-			td.halogen{background-color:#AB35DA}
-			td.semimetal{background-color:aqua;}
-			td.basic{background-color:darkgreen;}
-			td.lanthanide{background-color:lightgreen}
-			td.actinide{background-color:lightseagreen;}
-			.symbol{font-weight:Bold;}
-		</style>
+		<link rel="stylesheet" type="text/css" href="responsive.css">
 	</head>
 	<body>
 		<div align="center">
 			<img id="portrait" src="http://www.elementalmatter.info/images/dimitri-mendeleev.jpg">
 		</div>
+		<div class="main_div">
 		<div contenteditable="true">
-			<table style="width:700px" align="center">
+			<table style="width:45%" align="center">
 				<tr>
 					<td class="alkalimetal">
 						Alkali Metal
@@ -70,7 +45,7 @@
 			</table>
 		</div>
 		<div id="table" contenteditable="true">
-			<table style="width:900px" align="center">
+			<table style="width:70%" align="center">
 				<tr>
 					<td class="nonmetal">
 						<div class="atomicw">1.008</div>
@@ -698,6 +673,7 @@
 					</td>
 				</tr>
 			</table>
+		</div>
 		</div>
 	</body>
 </html>

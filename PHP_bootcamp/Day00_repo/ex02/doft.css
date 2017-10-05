@@ -1,0 +1,171 @@
+html, body {
+    margin: 13pt;
+    padding: 0;
+    background-color: #505050;
+}
+
+html {
+    font-size: 12px;
+}
+
+.container{
+    padding-left: 10em;
+    padding-right: 10em; 
+}
+
+.main-header {
+    position: relative;
+    width: 120em;
+    background-color: #909090;
+    border: 0.5em solid #909090;
+    border-radius: 11px;
+    box-shadow: .9em .5em .5em black;
+    right: -5em;
+    top: -1.2em;
+}
+
+.left-bar {
+    position: relative;
+    background-color: #909090;
+    border: 1em solid #909090;
+    border-radius: 11px;
+    box-shadow: .9em .5em .5em black;
+    width: 10em;
+    float: left;
+    left: 2%;
+}
+
+.right-bar {
+    position: absolute;
+    background-color: #909090;
+    border: 1em solid #909090;
+    border-radius: 11px;
+    box-shadow: .9em .5em .5em black;
+    width: 10em;
+    height: 33em;
+    float: right;
+    left: 83%;
+    bottom: 15.3em;
+}
+
+.cluster-image
+{
+    position: relative;
+    border: 1em solid #909090;
+    border-radius: 11px;
+    box-shadow: 1em 1em 1em black;
+    right: 7.8em;
+}
+
+.container-2 {
+    position: relative;
+    top: -3em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.doft-image {
+    width: 37em;
+}
+
+.close {
+    position: absolute;
+    width: 1.7em;
+    bottom: 0;
+    right: 0;
+}
+
+.reload {
+    position: absolute;
+    width: 1.7em;
+    top: 0;
+    right: 0;
+}
+
+.magnif {
+    position: absolute;
+    bottom: -2.5em;
+    right: 2em;
+    width: 21em;
+}
+
+.arrow, .hand, .tools, .chat-icon {
+    width: 6em;
+    position: relative;
+}
+
+.eye {
+    border: .45em solid red;
+    width: 6em;
+    border-radius: .4em;
+}
+
+.book, .towel {
+    width: 6em;
+}
+
+.brick {
+    position: relative;
+    left: -0.3em;
+    width: 10.7em;
+    height: 6em;
+    background-image: url("resources/brick.jpg");
+}
+
+.greenbox {
+    position: absolute;
+    width: 43em;
+    height: 14em;
+    border: 1em;
+    border-radius: 11px;
+    background-color: rgb(139,252,141);
+    top: 58em;
+    left: 15em;
+    box-shadow: 1em 1em 1em black;
+}
+
+.greentext{
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-left: 0.7em;
+    padding-top: -0.8em;
+}
+
+.line4{
+    text-shadow: 0.3em 0.2em 0.35em red;
+}
+
+.line2{
+    font-size: 33px;
+    font-family: Georgia;
+}
+
+.link1{
+    position: absolute;
+    height: 60px;
+    width: 70px;
+    left: 72em;
+    bottom: 37em;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.link2{
+    position: absolute;
+    height: 70px;
+    width: 120px;
+    left: 90em;
+    bottom: 35em;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.input{
+    position: absolute;
+    left: 1em;
+    width: 32em;
+}
+
+.button{
+    position:absolute;
+    left: 34em;
+    background-color: #ECECEC;
+}

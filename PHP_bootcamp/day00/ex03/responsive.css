@@ -1,0 +1,34 @@
+td{
+    height:0.5vw;
+    width:0.5vw;
+    font-size: 1vw;
+}
+div.atomicw{
+    font-size:.8vw;
+    text-align: right;
+}
+div.symbol {
+    text-align: center;
+    font-size: 1.5vw;
+}
+div.atomicn{
+    font-size:.8vw;
+}
+td {background-color:yellow;}
+td.noble{background-color:purple;}
+td.alkalimetal{background-color:red;}
+td.alkaline{background-color:orange}
+td.nonmetal{background-color:#47B1D1}
+td.halogen{background-color:#AB35DA}
+td.semimetal{background-color:aqua;}
+td.basic{background-color:darkgreen;}
+td.lanthanide{background-color:lightgreen}
+td.actinide{background-color:lightseagreen;}
+.symbol{font-weight:Bold;}
+
+@media screen and (max-height:500px){
+    #portrait{width:200px}
+}
+@media screen and (max-width:900px){
+    #portrait{width:200px}
+}

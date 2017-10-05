@@ -1,14 +1,14 @@
 #!/usr/bin/php
-<?PHP
-
+<?php
 function ft_split($str)
 {
-	$str = trim(preg_replace("/[ ]+/", " ", $str));
-	$arr = preg_split("/ /", $str);
+	$arr = preg_split(/[\s,]+/, $str);
+	//ereg_replace
+	//preg_replace;
 	sort($arr);
-	return ($arr);
+	return $arr;
 }
-;
-print_r (ft_split("Hello     World AAA"));
 
+$pop = "hello     my     name is";
+print_r(ft_split($pop));
 ?>

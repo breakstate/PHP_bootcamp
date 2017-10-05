@@ -1,0 +1,121 @@
+html, body {
+    margin: 13pt;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+html {
+    font-size: 12px;
+}
+
+.container{
+    padding-left: 10em;
+    padding-right: 10em; 
+}
+
+.main-header {
+    position: relative;
+    background-color: #909090;
+    border: 1em solid #909090;
+    border-radius: 11px;
+    box-shadow: .9em .5em .5em black;
+}
+
+.left-bar {
+    position: relative;
+    background-color: #909090;
+    border: 1em solid #909090;
+    border-radius: 11px;
+    box-shadow: .9em .5em .5em black;
+    width: 12em;
+    float: left;
+}
+
+.right-bar {
+    position: absolute;
+    background-color: #909090;
+    border: 1em solid #909090;
+    border-radius: 11px;
+    box-shadow: .9em .5em .5em black;
+    width: 12em;
+    float: right;
+    left: 130em;
+    bottom: 34.5em;
+}
+
+.cluster-image
+{
+    position: relative;
+    border: 1em solid #909090;
+    border-radius: 11px;
+    box-shadow: 1em 1em 1em black;
+    right: 7em;
+}
+
+.container-2 {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.doft-image {
+    width: 50em;
+}
+
+.close {
+    position: absolute;
+    width: 2em;
+    bottom: 0;
+    right: 0;
+}
+
+.reload {
+    position: absolute;
+    width: 2em;
+    top: 0;
+    right: 0;
+}
+
+.magnif {
+    position: absolute;
+    bottom: -3em;
+    right: 1em;
+    width: 25em;
+}
+
+.arrow, .hand, .tools, .chat-icon {
+    width: 8em;
+    position: relative;
+}
+
+.eye {
+    border: .8em solid red;
+    width: 8em;
+    border-radius: 1em;
+}
+
+.book, .towel {
+    width: 8em;
+}
+
+.brick {
+    width: 9.5em;
+    height: 8em;
+    background-image: url("resources/brick.jpg");
+}
+
+.greenbox {
+    position: absolute;
+    width: 49em;
+    height: 14em;
+    border: 1em;
+    border-radius: 11px;
+    background-color: rgb(139,252,141);
+    top: 65em;
+    left: 10em;
+    box-shadow: 1em 1em 1em black;
+    font-family: sans-serif;
+}
+
+.line4{
+    text-shadow: 1em 1em 0.2em red;
+}
