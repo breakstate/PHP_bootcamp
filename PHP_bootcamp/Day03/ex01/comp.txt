@@ -1,0 +1,3 @@
+curl -c cook.txt 'http://localhost:8080/Day03/ex03/tes_cookie.php?action=set&name=plat&value=chocolate'
+curl -b cook.txt 'http://localhost:8080/Day03/ex03/tes_cookie.php?action=get&name=plat'
+curl -c cook.txt 'http://localhost:8080/Day03/ex03/tes_cookie.php?action=del&name=plat'
