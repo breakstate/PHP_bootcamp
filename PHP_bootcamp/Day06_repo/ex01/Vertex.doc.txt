@@ -1,0 +1,5 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles vertices and contains an rgb color.
+
+An instance can be created by giving x, y, z and optionally w, color.
+---------------------------------------------------------------------- Vertex ->
